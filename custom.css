@@ -1,0 +1,63 @@
+body {
+    background-color: #eee;
+    background-image: url('Road.avif');
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: rgba(102, 255, 0, 0.932);
+    color: rgb(6, 117, 207);
+}
+
+.container {
+    background-color: #fff2f28a;
+    max-width: 30%;
+    height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#count-el {
+    font-weight: bold;
+    font-size: 2rem
+}
+
+button {
+    padding: 10px 20px;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 150px;
+}
+
+#increment-btn {
+    background-color: red;
+}
+
+#increment-btn:hover {
+    background-color: rgb(204, 0, 0);
+}
+
+#save-btn {
+    background-color: green;
+}
+
+#save-btn:hover {
+    background-color: rgb(0, 95, 0);
+}
+
+@media (min-width: 1400px) {
+    .container button {
+        display: inline-block;
+    }
+}
